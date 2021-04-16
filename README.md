@@ -1,2 +1,2 @@
 # ThreadPool
-A C++ thread pool implementation
+A C++20 thread pool implementation
