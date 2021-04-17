@@ -13,6 +13,9 @@ test:
 	$(CXX) -Wall $(CPPFLAGS) -o $(BUILD_DIR)/ThreadPoolTest ThreadPoolTest.cpp -lgtest_main -lgtest -lpthread -pthread
 	$(BUILD_DIR)/ThreadPoolTest
 
+install:
+	install ThreadPool.h /usr/local/include/
+
 doc:
 	doxygen
 
